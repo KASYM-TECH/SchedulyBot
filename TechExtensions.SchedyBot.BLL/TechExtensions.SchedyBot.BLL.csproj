@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="Hangfire.AspNetCore" Version="1.7.28" />
+    <PackageReference Include="Hangfire.Postgresql" Version="1.9.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
+    <PackageReference Include="RandomStringCreator" Version="2.0.0" />
+    <PackageReference Include="Telegram.Bot" Version="17.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TechExtensions.SchedyBot.DLL\TechExtensions.SchedyBot.DLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BotDialogProcessing\InlineKeyboardModule" />
+    <Folder Include="BotDialogProcessing\UpdateHandlers\" />
+    <Folder Include="Services\Abstractions" />
+    <Folder Include="Temp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="DialogTextsTranslation.json" />
+    <Content Include="DialogTextsTranslation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Remove="IndustryAndServiceTagsRelation.json" />
+    <Content Include="IndustryAndServiceTagsRelation.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,634 @@
+{
+  "Translations": [
+    {
+      "CollectionName": "DaysOfWeek",
+
+      "Monday": {
+        "ru": "Понедельник",
+        "en": "Monday"
+      },
+      "Tuesday": {
+        "ru": "Вторник",
+        "en": "Tuesday"
+      },
+      "Wednesday": {
+        "ru": "Среда",
+        "en": "Wednesday"
+      },
+      "Thursday": {
+        "ru": "Четверг",
+        "en": "Thursday"
+      },
+      "Friday": {
+        "ru": "Пятница",
+        "en": "Friday"
+      },
+      "Saturday": {
+        "ru": "Суббота",
+        "en": "Saturday"
+      },
+      "Sunday": {
+        "ru": "Воскресенье",
+        "en": "Sunday"
+      }
+    },
+    {
+      "CollectionName": "Days",
+      "today": {
+        "ru": "Сегодня",
+        "en": "Today"
+      },
+      "tomorrow": {
+        "ru": "Сегодня",
+        "en": "Tomorrow"
+      },
+      "dayAfterTomorrow": {
+        "ru": "Послезавтра",
+        "en": "Day after tomorrow"
+      },
+      "afterTheDayAfterTomorrow": {
+        "ru": "Послепослезавтра",
+        "en": "After the day after tomorrow"
+      }
+    },
+    {
+      "CollectionName": "CommonTranslations",
+      "welcome": {
+        "ru": "Добро пожаловать",
+        "en": "Welcome"
+      },
+      "next": {
+        "ru": "Дальше ➡️",
+        "en": "Next ➡️"
+      },
+      "previous": {
+        "ru": "Назад ⬅️",
+        "en": "Previous ⬅️"
+      },
+      "getBackBtn": {
+        "ru": "Вернуться ↩️",
+        "en": "Return ↩️"
+      },
+      "getBackBtnInvalid": {
+        "ru": "Нет пути назад",
+        "en": "No way to home"
+      },
+      "btnErr": {
+        "ru": "Ответье нажатием на кнопку",
+        "en": "Reply with a button"
+      },
+      "timeZoneErr": {
+        "ru": "Не удалось определить часовой пояс, отправьте локацию или выберите вручную",
+        "en": "Cant't recognize your time zone, approve request to location or choose it manually"
+      },
+      "selectDate": {
+        "ru": "Выберите дату",
+        "en": "Select a date"
+      },
+      "greateBtn": {
+        "ru": "Отлично!",
+        "en": "Greate!"
+      },
+      "change": {
+        "ru": "Нет, изменить",
+        "en": "No, change"
+      },
+      "YesAllIsCalculated": {
+        "ru": "Да, всё рассчитано",
+        "en": "Yes, it's all calculated."
+      },
+      "cancelBtn": {
+        "ru": "Отмена ❌",
+        "en": "Cancel ❌"
+      },
+      "cancelBtnReply": {
+        "ru": "Текущий диалог был отменен",
+        "en": "Current dialog has been canceled"
+      },
+      "rejectBtn": {
+        "ru": "Отклонить ❌",
+        "en": "Reject ❌"
+      },
+      "yesBtn": {
+        "ru": "Да ✅",
+        "en": "Yes ✅"
+      },
+      "noBtn": {
+        "ru": "Нет ❌",
+        "en": "No ❌"
+      },
+      "doneBtn": {
+        "ru": "Готово ✅",
+        "en": "Done ✅"
+      },
+      "neutralMess": {
+        "ru": "Хорошего дня!",
+        "en": "Have a good day!"
+      },
+      "minuts": {
+        "ru": "мин",
+        "en": "min"
+      },
+      "hour": {
+        "ru": "час",
+        "en": "hour"
+      },
+      "selectTime": {
+        "ru": "Выберите",
+        "en": "Select time"
+      },
+      "confirm": {
+        "ru": "Подтвердить ✅",
+        "en": "Confirm ✅"
+      },
+      "selectTimeSpan": {
+        "ru": "Выберите длину услуги",
+        "en": "Choose service length"
+      },
+      "selectService": {
+        "ru": "Выберите услугу",
+        "en": "Choose a service"
+      },
+      "selectServiceKind": {
+        "ru": "Выберите сферу услуг",
+        "en": "Choose a scope of services"
+      },
+      "selectBookingToConfirm": {
+        "ru": "Выберите неподтвержденную бронь",
+        "en": "Select an unconfirmed booking"
+      },
+      "changeTime": {
+        "ru": "Изменить время",
+        "en": "Cange time"
+      },
+      "TimeIsChangedByClient": {
+        "ru": "Время изменено клиентом ",
+        "en": "Time changed by client"
+      },
+      "TimeIsChangedByExecutor": {
+        "ru": "Время изменено продавцом ",
+        "en": "Time changed by seller"
+      },
+      "AwaitingConfirmation": {
+        "ru": "Ожидает подтверждения ",
+        "en": "Awaiting confirmation"
+      },
+      "Confirmed": {
+        "ru": "Подтвержден ",
+        "en": "Confirmed"
+      },
+      "Canceled": {
+        "ru": "Отменено  ",
+        "en": "Canceled "
+      },
+      "selectBooking": {
+        "ru": "Выберите бронь",
+        "en": "Select a booking"
+      },
+      "dontTouchThisBooking": {
+        "ru": "Бронь в процессе изменения",
+        "en": "Booking in the process of changing"
+      },
+      "allTimeReserved": {
+        "ru": "Нет свободного времени",
+        "en": "All time is reserved already"
+      },
+      "contactWithUser": {
+        "ru": "Связаться с пользователем",
+        "en": "Contact with user"
+      },
+      "comment": {
+        "ru": "Комментарий: {0}",
+        "en": "Comment: {0}"
+      },
+      "editSchedule": {
+        "ru": "Редактировать расписание",
+        "en": "Edit Schedule"
+      },
+      "editProfile": {
+        "ru": "Редактировать профиль",
+        "en": "Edit profile"
+      },
+      "editService": {
+        "ru": "Редактировать услугу",
+        "en": "Edit Service"
+      },
+      "fullRegistration": {
+        "ru": "Пройти полную регистрацию",
+        "en": "Go through full registration"
+      },
+      "somethingElse": {
+        "ru": "Что-то ещё",
+        "en": "Something else"
+      },
+      "createScheduleFirst": {
+        "ru": "Для начала создайте расписание и услугу",
+        "en": "Create a schedule and a service first"
+      },
+      "fullRegistrationFirst": {
+        "ru": "Для начала пройдите полную регистрацию",
+        "en": "Go through the full registration first"
+      },
+      "selectSeller": {
+        "ru": "Выберите исполнителя",
+        "en": "Select a seller"
+      },
+      "noSellerIdsYet": {
+        "ru": "Список пуст",
+        "en": "Empty"
+      },
+      "outdatedLink": {
+        "ru": "Ссылка больше не активна, запросите у исполнителя новую",
+        "en": "This link is no longer active, ask executor for a new one"
+      }
+    },
+    {
+      "CollectionName": "BookingManagmentTemplate",
+      "branch0step0mess": {
+        "ru": "Выберите бронь для управления ею",
+        "en": "Select a booking to manage it"
+      },
+      "branch0step1mess": {
+        "ru": "Отлично! Какую бронь выбираем ? ",
+        "en": "Fine! What booking do we choose?"
+      },
+      "branch0step0Btn0": {
+        "ru": "Входящие  бронирования",
+        "en": "Incoming booking"
+      },
+      "branch0step0Btn1": {
+        "ru": "Исходящие  бронирования",
+        "en": "Outgoing bookings"
+      },
+      "branch0step1Btn1": {
+        "ru": "Жаль",
+        "en": "It's a pity"
+      },
+      "branch0step1Btn2": {
+        "ru": "Связаться с пользователем",
+        "en": "Contact user"
+      },
+      "branch0step1Btn3": {
+        "ru": "Оставить отзыв",
+        "en": "Give feedback"
+      },
+      "branch0step1Btn4": {
+        "ru": "Нет, отказаться",
+        "en": "No, refuse"
+      },
+      "branch0step1Btn5": {
+        "ru": "Да!",
+        "en": "Yes!"
+      },
+      "branch0step3btn": {
+        "ru": "Без сообщения",
+        "en": "Without message"
+      },
+      "branch0step3mess": {
+        "ru": "Если необходимо - прикрепите сообщение к брони",
+        "en": "If necessary, attach a message to the booking"
+      },
+      "branch0step3mess1": {
+        "ru": "Бронь от пользователя {0} по услуге {1} на {2} в {3} подтверждена!",
+        "en": "Booking from user {0} for service {1} for {2} in {3} has been confirmed!"
+      },
+      "branch0step3mess2": {
+        "ru": "Бронь от пользователя {0} по услуге {1} на {2} в {3} отменена",
+        "en": "Booking from user {0} for service {1} for {2} in {3} was canceled"
+      },
+      "branch0step3mess3": {
+        "ru": "Время брони от пользователя {0} по услуге {1} изменена на {2} в {3}",
+        "en": "Booking time from user {0} for service {1} changed to {2} in {3}"
+      },
+      "branch0step3mess4": {
+        "ru": "Бронь у исполнителя {0} по услуге {1} на {2} в {3} подтверждена!",
+        "en": "Booking with the contractor {0} for the service {1} for {2} in {3} has been confirmed!"
+      },
+      "branch0step3mess7": {
+        "ru": "Бронь у исполнителя {0} по услуге {1} на {2} в {3} отменена",
+        "en": "Booking with the contractor {0} for the service {1} for {2} in {3} was canceled"
+      },
+      "branch0step3mess5": {
+        "ru": "Бронь от пользователя {0} по услуге {1} на {2} в {3} отменена",
+        "en": "Booking from user {0} for service {1} for {2} in {3} was canceled"
+      },
+      "branch0step3mess6": {
+        "ru": "Время брони у исполнителя {0} по услуге {1} изменена на {2} в {3}",
+        "en": "Booking time at the contractor {0} for the service {1} changed to {2} in {3}"
+      },
+      "branch1step0mess": {
+        "ru": "Выберите удобное для вас время, чтобы перенести бронирование",
+        "en": "We notified the seller that the time is not right for you"
+      },
+      "branch1step1btn1": {
+        "ru": "Отменить",
+        "en": "Cancel"
+      },
+      "branch1step1mess1": {
+        "ru": "Выберите действие",
+        "en": "Select an action"
+      },
+      "branch1step1mess2": {
+        "ru": "[{0}] Исполнитель: {1} \nДата: {2}\nВремя: {3}",
+        "en": "[{0}] Seller: {1} \nDate: {2}\nTime: {3}"
+      },
+      "branch0step3mess8": {
+        "ru": "Напоминаем, через час у вас забронировано время у {0} в {1} по услуге: {2}",
+        "en": "We remind you that in an hour you have booked time with {0} at {1} for the service: {2}"
+      }
+    },
+    {
+      "CollectionName": "BookSellerTimeTemplate",
+      "branch0step0mess": {
+        "ru": "Давайте забронируем немножко времени у {0}",
+        "en": "Let's book some time with {0}"
+      },
+      "btnErr": {
+        "ru": "Ответье нажатием на кнопку",
+        "en": "Reply with a button"
+      },
+      "branch0step1mess": {
+        "ru": "Выберите услугу, которую хотите забронировать",
+        "en": "Select the service you want to book"
+      },
+      "branch0step2mess": {
+        "ru": "Выберите дату стрелками, а затем время брони",
+        "en": "Select a date with arrows and then time for book it"
+      },
+      "branch0step3btn1": {
+        "ru": "Без сообщения",
+        "en": "Without message"
+      },
+      "branch0step3mess": {
+        "ru": "Если необходимо - прикрепите сообщение к брони",
+        "en": "If necessary, attach a message to the booking"
+      },
+      "branch0step3mess1": {
+        "ru": "{0} забронировал у вас услугу {1}\nДата: {2}\nВремя: {3}",
+        "en": "{0} booked a service with you {1}\nDate: {2}\nTime: {3}"
+      },
+      "branch0step3mess3": {
+        "ru": "{0} забронировал у вас услугу {1}\nДата: {2}\nВремя: {3}. Подтвердите бронирование в специальном меню {4} ",
+        "en": "{0} booked a service with you {1}\nDate: {2}\nTime: {3}. Сonfirm the booking in the special menu {4} "
+      },
+      "branch0step3mess2": {
+        "ru": "Сообщение о брони отправлено исполнителю, мы уведомим Вас когда он его одобрит. Смотрите все ваши бронирования в специальном меню /outgoingbookings",
+        "en": "A message about the reservation has been sent to the contractor, we will notify you when he approves it. See your all booking in the special menu /outgoingbookings"
+      },
+      "branch1step0mess": {
+        "ru": "Приветствую! Перед тем как забронировать время у {0} необходимо пройти быструю регистрацию, это займет буквально минуту!",
+        "en": "Greetings! Before booking a time with {0}, you need to go through a quick registration, it will take just a minute!"
+      },
+      "branch1step0btn1": {
+        "ru": "Отлично",
+        "en": "Greate"
+      },
+      "branch1step1mess": {
+        "ru": "Введите своё имя:",
+        "en": "Enter your name:"
+      },
+      "branch1EnterErr": {
+        "ru": "Введенное значение не соответствует правилам, введите другое (ссылка на правила)",
+        "en": "The entered value does not match the rules, please enter another one (link to the rules)"
+      },
+      "branch1step2mess": {
+        "ru": "Приятно познакомиться, {0}! По желанию напишите фамилию, чтобы Вас могли узнать:",
+        "en": "Nice to meet you, {0}! Please enter your last name so that you can be recognized:"
+      },
+      "branch1step2btn1": {
+        "ru": "Не хочу вводить фамилию",
+        "en": "I don't want to enter my last name"
+      },
+      "branch1step3mess": {
+        "ru": "Поздравляем, вы зарегистрированы! Правда ведь не долго? Теперь можете забронировать время у {0}!",
+        "en": "Congratulations, you are registered! Is it really not long? Now you can book with {0}!"
+      }
+    },
+    {
+      "CollectionName": "BookingNotificationForSellerTemplate",
+      "branch0step0mess": {
+        "ru": "Выберите бронь для управления ею",
+        "en": "Lets decide on a booking"
+      },
+      "branch0step1mess": {
+        "ru": "Пользователь {user.name} забронировал у Вас услугу {date} с {from} до {to}, подтверждаете бронь?",
+        "en": "User {user.name} booked a service {date} with you from {from} to {to}, are you confirming the booking?"
+      },
+      "branch0step2mess": {
+        "ru": "Введите диапазон в формате ЧЧ:ММ-ЧЧ:ММ",
+        "en": "Enter a range in the format HH:MM-HH:MM"
+      },
+
+      "branch1step0mess": {
+        "ru": "Диапазон попадает на уже существующую бронь, всё равно сохраняем?",
+        "en": "The range falls on an existing booking, do we save it anyway?"
+      },
+      "branch0step2errmess": {
+        "ru": "Неверный формат, введите сообщение в виде 13:30-15:30",
+        "en": "Invalid format, please enter a message in the form 13:30-15:30"
+      },
+      "branch0step3mess": {
+        "ru": "Вы выбрали диапазон {booking.info}, подтверждаем?",
+        "en": "You have selected the range {booking.info}, confirm?"
+      },
+      "branch0step4mess": {
+        "ru": "Хотите прикрепить сообщение пользователю {user.name}?",
+        "en": "Want to attach a message to user {user.name}?"
+      },
+      "branch0step5mess1": {
+        "ru": "Бронь подтверждена!",
+        "en": "Booking confirmed!"
+      },
+      "branch0step5mess2": {
+        "ru": "Бронь отклонена!",
+        "en": "Booking declined!"
+      },
+      "branch0step5mess3": {
+        "ru": "Продавец {seller.name} изменил время брони {date} по услуге {service.name} с {duration.From} до {duration.To}.",
+        "en": "The seller {seller.name} changed the booking time {date} for the service {service.name} from {duration.From} to {duration.To}."
+      },
+      "branch0step5mess4": {
+        "ru": "Продавец {seller.name} отменил бронь по услуге {service.name} с {duration.From} до {duration.To}",
+        "en": "The seller {seller.name} canceled the reservation for the service {service.name} from {duration.From} to {duration.To}"
+      },
+      "branch0step5mess5": {
+        "ru": "Ваша бронь по услуге {service.name} у {seller.name} {date} с {duration.From} до {duration.To} подтверждена. Стоимость составит {service.price}",
+        "en": "Your booking for {service.name} at {seller.name} {date} from {duration.From} to {duration.To} has been confirmed. The cost will be {service.price}"
+      },
+      "noMessage": {
+        "ru": "Без сообщения",
+        "en": "No message"
+      }
+    },
+      {
+        "CollectionName": "GreetingAndCustomizingUserTemplate",
+
+        "branch0step0mess": {
+          "ru": "Приветствую! Сейчас мы пройдем быструю регистрацию, это займет буквально минуту!",
+          "en": "Greetings! Now we will go through a quick registration, it will take just a minute!"
+        },
+        "btnErr": {
+          "ru": "Ответьте нажатием на кнопку",
+          "en": "Reply with a button"
+        },
+        "branch0step0btn1": {
+          "ru": "Отлично",
+          "en": "Great"
+        },
+        "branch0step1mess": {
+          "ru": "Введите своё имя:",
+          "en": "Enter your name:"
+        },
+        "branch0EnterErr": {
+          "ru": "Введенное значение не соответствует правилам, введите другое (ссылка на правила)",
+          "en": "The entered value does not match the rules, please enter another one (link to the rules)"
+        },
+        "branch0step2mess": {
+          "ru": "Приятно познакомиться, {0}! По желанию напишите фамилию, чтобы Вас могли узнать:",
+          "en": "Nice to meet you, {0}! Please enter your last name so that you can be recognized:"
+        },
+        "branch0step3oldMess": {
+          "ru": "Осталось лишь придумать никнэйм, чтобы Вас можно было идентифицировать, используйте латинские буквы",
+          "en": "It remains only to come up with a nickname so that you can be identified, use Latin letters"
+        },
+        "branch0step3mess": {
+          "ru": "Отправьте свою локацию (это единовременно), чтобы мы могли определить вашу зону времени",
+          "en": "Send us your location that we could recognize your time zone"
+        },
+        "branch0step3mess1": {
+          "ru": "Спасибо! Если вы смените город/страну предоставления услуг, то измените зону времени в настройках, которые будут доступны после регистрации, чтобы мы могли сопоставлять вас по времени с другими пользователями",
+          "en": "Thank you! If you change the city / country of service, then change the time zone in the settings that will be available after registration so that we can match you with other users in time"
+        },
+        "branch0step2btn1": {
+          "ru": "Не хочу вводить фамилию",
+          "en": "I don't want to enter my last name"
+        },
+        "branch0NickNEnterErr": {
+          "ru": "Этот никнэйм уже занят или не соответствует правилам {ссылка на правила}, пожалуйста введите другой",
+          "en": "This nickname is already taken or does not comply with the rules {link to rules}, please enter another one"
+        },
+        "branch0step4mess": {
+          "ru": "Поздравляем, вы зарегистрированы! Правда ведь не долго? Вы хотели бы создать своё расписание?",
+          "en": "Congratulations, you are registered! Is it really not long? Would you like to create your own schedule?"
+        },
+        "branch1step0mess": {
+          "ru": "В таком случае Вы можете найти интересующую вас сферу услуг и забронировать время исполнителя",
+          "en": "In this case, you can find the service sector you are interested in and book the time of the performer"
+        },
+        "branch0step5mess": {
+          "ru": "Давайте определимся со сферой услуг, которые вы предоставляете. Выберите из списка или впишите свою",
+          "en": "Let's define the scope of services that you provide. Choose from the list or enter your own"
+        },
+        "branch0step5err": {
+          "ru": "Такую сферу услуг мы не можем зарегистрировать, выберите пожалуйста другую",
+          "en": "We cannot register such a service sector, please select another"
+        },
+        "branch0step6err": {
+          "ru": "Такую услугу мы не можем зарегистрировать, выберите пожалуйста другую",
+          "en": "We cannot register this service, please choose another one"
+        },
+        "branch0step6mess": {
+          "ru": "Укажите услугу, расписание для которой нужно сформировать. Выберите из списка или впишите свою",
+          "en": "Specify the service for which you want to create a schedule. Choose from the list or enter your own"
+        },
+        "branch0step7mess": {
+          "ru": "Теперь напишите стоимость услуги (в рублях)",
+          "en": "Now write the cost of the service (in rubles)"
+        },
+        "branch0step7err": {
+          "ru": "Неверный формат, допускаются только числа, например 1500, 50",
+          "en": "Invalid format, only numbers allowed, like 1500, 50"
+        },
+        "branch0step8mess": {
+          "ru": "Выберите дни недели, в которые Ваше время можно будет забронировать: ",
+          "en": "Select the days of the week on which your time can be booked: "
+        },
+        "branch0step8mess1": {
+          "ru": "Записали, в какой еще день недели Ваше время можно будет забронировать?",
+          "en": "Recorded on what other day of the week your time can be booked?"
+        },
+        "branch0step8btn0": {
+          "ru": "Настроить позже",
+          "en": "Set up later"
+        },
+        "branch2step0mess": {
+          "ru": "В любое время Вы можете настроить расписание через пункт меню Настройка расписания, хорошего дня!",
+          "en": "At any time, you can set the schedule through the menu item Schedule settings, have a nice day!"
+        },
+        "branch0step9mess": {
+          "ru": "Теперь определимся со временем начала дня, введите пожалуйста время в формате ЧЧ:ММ. (скорректировать время для каждого дня недели отдельно можно будет в настройках расписания)",
+          "en": "Now let's decide on the start time of the day, please enter time in HH:MM format (it will be possible to adjust the time for each day of the week separately in the schedule settings)"
+        },
+        "branch0timeErr": {
+          "ru": "Введите пожалуйста время в формате ЧЧ:ММ",
+          "en": "Please enter time in HH:MM format"
+        },
+        "branch0step10mess": {
+          "ru": "Отлично! Какую верхнюю границу расписания зададим?",
+          "en": "Fine! What is the upper bound of the schedule?"
+        },
+        "branch0step11mess": {
+          "ru": "Сколько по времени оказывается услуга в минутах ?",
+          "en": "How long is the service in minuts?"
+        },
+        "branch0step12mess": {
+          "ru": "Выделим перерывы на обед?",
+          "en": "Set aside lunch breaks?"
+        },
+        "branch0step13mess": {
+          "ru": "В какое время начало перерыва?",
+          "en": "What time does the break start?"
+        },
+        "branch0step14mess": {
+          "ru": "В какое время заканчивается перерыв?",
+          "en": "What time does the break end?"
+        },
+        "branch0step15mess": {
+          "ru": "Отлично! Ваше расписание настроено, в любое время Вы можете его скорректировать через пункт меню Настройки расписания. Ссылка на Ваше расписание для бронирования: {0}",
+          "en": "Fine! Your schedule is set, you can adjust it at any time through the menu item Schedule settings. Link to your schedule for booking: {0}"
+        }
+      },
+      {
+        "CollectionName": "ServiceIndustryCollection",
+        "serInd0": {
+          "ru": "Пищевая индустрия",
+          "en": "Food industry"
+        },
+        "serInd1": {
+          "ru": "Техническая поддержка",
+          "en": "Technical support"
+        },
+        "serInd2": {
+          "ru": "Медицинские услуги",
+          "en": "Medical services"
+        }
+      },
+      {
+        "CollectionName": "ServiceCollection",
+        "ser0": {
+          "ru": "Кондитер",
+          "en": "Confectioner"
+        },
+        "ser1": {
+          "ru": "Повар",
+          "en": "Cook"
+        },
+        "ser2": {
+          "ru": "Пиццамейкер",
+          "en": "Pizza maker"
+        },
+        "ser3": {
+          "ru": "Сантехник",
+          "en": "Plumber"
+        },
+        "ser4": {
+          "ru": "Хирург",
+          "en": "Surgeon"
+        },
+        "ser5": {
+          "ru": "Стоматолог",
+          "en": "Dentist"
+        }
+      }
+  ]
+}
