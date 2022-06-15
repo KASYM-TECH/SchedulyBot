@@ -1,8 +1,0 @@
-{
-  // serInd0 -- сфера услуг. "ser1", "ser0", "ser2" -- сами услуги относящиеся к этой сфере 
-  "TagsRelation": {
-    "serInd0": [ "ser1", "ser0", "ser2" ],
-    "serInd1": [ "ser3" ],
-    "serInd2": [ "ser5", "ser4" ]
-  }
-}
